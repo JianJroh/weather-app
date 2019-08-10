@@ -15,7 +15,7 @@
         scriptElem.id = jsId;
         document.getElementsByTagName('head')[0].appendChild(scriptElem);
     }
-    
+    //点击城市名称刷新天气信息
     var row1 = document.getElementsByClassName('row1')[0];
     row1.addEventListener('click', function () {
         var container = document.getElementsByClassName('container')[0];
